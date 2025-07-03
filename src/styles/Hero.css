@@ -1,0 +1,56 @@
+.hero-section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(225, 235, 206);
+}
+
+.hero-section img {
+  width: 200px;
+  height: 200px;
+}
+
+.hero-section h4 {
+  font-size: 32px;
+  font-weight: 500;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.hero-section h1 {
+  font-size: 44px;
+  font-weight: 700;
+  color: #5D8736;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.hero-section p {
+  font-size: 20px;
+  color: rgb(75, 135, 55);
+  max-width: 700px;
+  text-align: center;
+  line-height: 2;
+}
+
+@media(max-width: 700px){
+    .hero-section h4 {
+        font-size: 24px;
+        font-weight: 500;
+      }
+      
+      .hero-section h1 {
+        font-size: 36px;
+        font-weight: 700;
+      }
+
+      .hero-section img {
+        width: 100px;
+        height: 100px;
+      }
+      
+}
