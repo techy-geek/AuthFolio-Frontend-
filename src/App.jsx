@@ -17,7 +17,7 @@ const App = () => {
   useEffect(() => {
     const getUser = async () => {
       await axios
-        .get("https://authfolio.netlify.app/api/v1/user/me", { withCredentials: true })
+        .get("https://authfolio.onrender.com/api/v1/user/me", { withCredentials: true })
         .then((res) => {
           setUser(res.data.user);
           setIsAuthenticated(true);
