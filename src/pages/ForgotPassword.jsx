@@ -12,7 +12,7 @@ const ForgotPassword = () => {
     e.preventDefault();
     await axios
       .post(
-        "http://localhost:4000/api/v1/user/password/forgot",
+        "https://authfolio.netlify.app//api/v1/user/password/forgot",
         { email },
         {
           withCredentials: true,
