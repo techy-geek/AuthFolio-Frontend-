@@ -17,7 +17,7 @@ const Register = () => {
   const handleRegister = async (data) => {
     data.phone = `+91${data.phone}`;
     await axios
-      .post("https://authfolio.netlify.app/api/v1/user/register", data, {
+      .post("https://authfolio.onrender.com/api/v1/user/register", data, {
         withCredentials: true,
         headers: { "Content-Type": "application/json" },
       })

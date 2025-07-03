@@ -16,7 +16,7 @@ const Login = () => {
   } = useForm();
   const handleLogin = async (data) => {
     await axios
-      .post("https://authfolio.netlify.app/api/v1/user/login", data, {
+      .post("https://authfolio.onrender.com/api/v1/user/login", data, {
         withCredentials: true,
         headers: {
           "Content-Type": "application/json",
