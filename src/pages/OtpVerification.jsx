@@ -36,7 +36,7 @@ const OtpVerification = () => {
       phone,
     };
     await axios
-      .post("hhttps://authfolio.onrender.com/api/v1/user/otp-verification", data, {
+      .post("https://authfolio.onrender.com/api/v1/user/otp-verification", data, {
         withCredentials: true,
         headers: { "Content-Type": "application/json" },
       })
