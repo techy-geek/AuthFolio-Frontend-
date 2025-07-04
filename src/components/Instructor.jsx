@@ -17,7 +17,7 @@ const Instructor = () => {
             for building powerful web applications and sharing knowledge. With
             hands-on experience in JavaScript, React, Node.js, Express, and
             MongoDB, I love to create scalable, high-performance
-            websites. I’m equally enthusiastic about learning and improve my self.
+            websites. I’m equally enthusiastic about learning and improving myself.
             Let's build and learn together.💗
           </p>
           <div className="social-links">
