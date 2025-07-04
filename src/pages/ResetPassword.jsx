@@ -15,7 +15,7 @@ const ResetPassword = () => {
     e.preventDefault();
     await axios
       .put(
-        `http://authfolio.onrender.com/api/v1/user/password/reset/${token}`,
+        `https://authfolio.onrender.com/api/v1/user/password/reset/${token}`,
         { password, confirmPassword },
         {
           withCredentials: true,
